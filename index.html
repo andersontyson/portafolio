@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anderson Tyson | Portafolio Profesional</title>
+    <meta name="description" content="Portafolio profesional de Anderson Tyson - Desarrollador Frontend / Backend">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="light-theme">
+    <header>
+        <nav class="container">
+            <div class="logo">AT<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Cambiar tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="assets/cv/Anderson_Tyson_CV.pdf" class="btn btn-outline" download>CV</a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section-reveal">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <h1 class="fade-in">Hola, soy <span class="highlight">Anderson Tyson</span></h1>
+                    <p class="subtitle fade-in">Desarrollador Full Stack & Apasionado por la Tecnología</p>
+                    <p class="description fade-in">Transformo ideas en experiencias digitales excepcionales con un enfoque en rendimiento y diseño moderno.</p>
+                    <div class="hero-btns fade-in">
+                        <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+                        <a href="assets/cv/Anderson_Tyson_CV.pdf" class="btn btn-secondary" download>
+                            <i class="fas fa-download"></i> Descargar CV
+                        </a>
+                    </div>
+                    <div class="social-links fade-in">
+                        <a href="https://github.com/andersontyson" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/andersontyson" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image-container fade-in">
+                    <!-- GitHub Avatar or Placeholder -->
+                    <img src="https://avatars.githubusercontent.com/u/61255070?v=4" alt="Anderson Tyson" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-reveal">
+            <div class="container">
+                <h2 class="section-title">Sobre Mí</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Soy un desarrollador comprometido con la excelencia técnica y la innovación. Con experiencia en diversas tecnologías, me especializo en crear soluciones robustas y escalables que resuelven problemas del mundo real.</p>
+                        <p>Mi enfoque combina una sólida base en ingeniería de software con una sensibilidad estética para el diseño de interfaces de usuario.</p>
+                    </div>
+                    <div class="about-info">
+                        <ul>
+                            <li><strong>Ubicación:</strong> Santo Domingo, Rep. Dom.</li>
+                            <li><strong>Email:</strong> anderson@ejemplo.com</li>
+                            <li><strong>Disponibilidad:</strong> Freelance / Tiempo Completo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-reveal">
+            <div class="container">
+                <h2 class="section-title">Habilidades Técnicas</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Frontend</h3>
+                        <div class="skill-list">
+                            <div class="skill-item" data-level="90%">
+                                <span>HTML5 / CSS3</span>
+                                <div class="progress-bar"><div class="progress"></div></div>
+                            </div>
+                            <div class="skill-item" data-level="85%">
+                                <span>JavaScript (ES6+)</span>
+                                <div class="progress-bar"><div class="progress"></div></div>
+                            </div>
+                            <div class="skill-item" data-level="80%">
+                                <span>TypeScript</span>
+                                <div class="progress-bar"><div class="progress"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-server"></i> Backend</h3>
+                        <div class="skill-list">
+                            <div class="skill-item" data-level="75%">
+                                <span>Node.js</span>
+                                <div class="progress-bar"><div class="progress"></div></div>
+                            </div>
+                            <div class="skill-item" data-level="70%">
+                                <span>Python</span>
+                                <div class="progress-bar"><div class="progress"></div></div>
+                            </div>
+                            <div class="skill-item" data-level="65%">
+                                <span>Dart (Flutter)</span>
+                                <div class="progress-bar"><div class="progress"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-database"></i> Bases de Datos</h3>
+                        <div class="skill-list">
+                            <div class="skill-item" data-level="80%">
+                                <span>PostgreSQL</span>
+                                <div class="progress-bar"><div class="progress"></div></div>
+                            </div>
+                            <div class="skill-item" data-level="75%">
+                                <span>MongoDB</span>
+                                <div class="progress-bar"><div class="progress"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Herramientas</h3>
+                        <div class="skill-list">
+                            <div class="skill-item" data-level="90%">
+                                <span>Git & GitHub</span>
+                                <div class="progress-bar"><div class="progress"></div></div>
+                            </div>
+                            <div class="skill-item" data-level="85%">
+                                <span>Docker</span>
+                                <div class="progress-bar"><div class="progress"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-reveal">
+            <div class="container">
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <div id="github-projects" class="projects-grid">
+                    <!-- Projects will be loaded dynamically from GitHub -->
+                    <div class="loading">Cargando proyectos desde GitHub...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-reveal">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <div class="contact-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>anderson@ejemplo.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Santo Domingo, República Dominicana</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/andersontyson" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/andersontyson" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Anderson Tyson. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="#hero">Inicio</a>
+                <a href="#about">Sobre Mí</a>
+                <a href="assets/cv/Anderson_Tyson_CV.pdf" download>Descargar CV</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Files -->
+    <script src="js/theme.js"></script>
+    <script src="js/github.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
